@@ -137,7 +137,7 @@ class MemeGenerator extends Component {
             </CustomOption>
           ))}
         </CustomSelect>
-        <GenerateButton type="submit">Generate</GenerateButton>
+        <GenerateButton type="submit">Generate PIC</GenerateButton>
       </MemeGeneratorForm>
     )
   }
@@ -164,7 +164,7 @@ class MemeGenerator extends Component {
     return (
       <AppContainer>
         <MemeGeneratorContainer>
-          <Heading>Meme Generator</Heading>
+          <Heading>Harsha Vardhan</Heading>
           <FormAndMemeContainer>
             {this.renderMeme()}
             {this.renderMemeGeneratorForm()}
